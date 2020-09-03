@@ -6,12 +6,18 @@ n = int(input("Enter the length of the sequence: ")) # Do not change this line
 # then update every varible to be the last so first = next, second = first, third = second
 # we need to start with second number as 1
 
-first_number = 0
-second_number = 1 
-third_number = 0
+first_number = 3
+second_number = 2 
+third_number = 1
 
-next_number = 0
-for num in range(n):
+
+next_number = first_number + second_number + third_number
+print(third_number)
+print(second_number)
+print(first_number)
+
+
+for num in range(n - 3):
     
     next_number = first_number + second_number + third_number
 
